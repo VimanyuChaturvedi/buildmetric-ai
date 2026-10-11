@@ -1,24 +1,17 @@
 # BuildMetric AI
 
-An independently developed, early-stage product planning prototype. It helps users structure product briefs, KPI plans, and idea evaluations.
+BuildMetric AI is an independent product initiative focused on turning product ideas into clear requirements, measurable outcomes, and evidence-led decisions.
 
-## Current functionality
-- Responsive landing page
-- Browser-based structured draft generator for three workflows
-- No account required; no user input is sent to a server
+## Current capabilities
+- Responsive product website
+- Browser-based structured planning outlines for product briefs, KPIs, and idea evaluation
+- No login, backend, or paid API required
 
-**Important:** This prototype is template-based. It does not currently call an LLM or the Claude API.
+## Product direction
+Future iterations may explore LLM-assisted drafting, document export, and collaboration. The current planning tool uses guided templates, not a live AI model.
 
-## Run locally
-Open `index.html` in a browser. No dependencies or build step required.
+## Deployment
+This is a static website. Upload `index.html` to the root of the GitHub repository connected to Vercel. Vercel automatically deploys new commits.
 
-## Deploy
-Import this repository into Vercel, Netlify, or Cloudflare Pages as a static site. Publish the repository root; no build command is needed.
-
-## Roadmap
-- Add a server-side API integration for optional LLM-assisted drafting
-- Add export to Markdown
-- Validate workflows with prospective users
-
-## Status
-Independent personal project, early prototype. Not a registered company or established business.
+## Contact
+vimanyu@buildmetric.works
